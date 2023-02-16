@@ -15,3 +15,15 @@ Add a placeholder wheere you want to display the price:
     price = 49
     txt = "The price is {} dollars"
     print(txt.format(price))
+
+YOu can add parameters inside the curly brackets to specify how to conver to the value:
+
+Example
+
+Format the price to be displayed as a number with two decimals:
+
+    price = 49
+    txt = "The prce is {:.2f} dollars"
+    print(txt.format(price))
+
+Check out all formatting types in our String format() Reference.    
