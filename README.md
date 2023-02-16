@@ -55,4 +55,11 @@ Example
     myorder = "I want {0} pieces of item numbe {1} for {2:.2f} dollars."
     print(myorder.format(quantity, itemno, price))
 
-    
+Also, if you want to refer to the same value more than once, use the index number:
+
+Example
+
+    age = 36
+    name = "Fahim"
+    txt = "His name is {1}. {1} is {0} years old."
+    print(txt.format(age, name))
