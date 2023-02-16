@@ -63,3 +63,13 @@ Example
     name = "Fahim"
     txt = "His name is {1}. {1} is {0} years old."
     print(txt.format(age, name))
+
+# Named Indexes 
+You can also use nmaed indexes by entering a name inside the curly brackets 
+{carname}, but they you must use names when you pass the parameter
+values txt.format(carname = "Ford"):
+
+Example
+
+    myorder = "I have a {carname}, it is a {model}."
+    print(myorder.format(carname = "Ford", model = "Mustang"))
